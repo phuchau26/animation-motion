@@ -2,14 +2,18 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import FoodCard from './components/FoodCard/FoodCard';
 import MainStage from './components/MainStage/MainStage';
+import HuTieu from './assets/hutieu.png';
+import BunRieu from './assets/bunrieu.png';
+import Pho from './assets/pho.png';
+import BanhCanh from './assets/banhcanh.png';
 
 function App() {
   const foods = [
-  { name: "Hu Tieu", img: "src/assets/hutieu.png", color: "#A7F3D0" },    // xanh lá nhạt
-  { name: "Bun Rieu", img: "src/assets/bunrieu.png", color: "#FECACA" },  // đỏ hồng nhạt
-  { name: "Pho", img: "src/assets/pho.png", color: "#BFDBFE" },           // xanh dương nhạt
-  { name: "Banh Canh", img: "src/assets/banhcanh.png", color: "#FEF3C7" } // vàng nhạt
-];
+    { name: "Hu Tieu", img: HuTieu, color: "#A7F3D0" },
+    { name: "Bun Rieu", img: BunRieu, color: "#FECACA" },
+    { name: "Pho", img: Pho, color: "#BFDBFE" },
+    { name: "Banh Canh", img: BanhCanh, color: "#FEF3C7" }
+  ];
 
 
   const [selectedFood, setSelectedFood] = useState(foods[0]);
