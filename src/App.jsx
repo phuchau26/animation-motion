@@ -5,10 +5,10 @@ import MainStage from './components/MainStage/MainStage';
 
 function App() {
   const foods = [
-  { name: "Hu Tieu", img: "./src/assets/hutieu.png", color: "#A7F3D0" },    // xanh lá nhạt
-  { name: "Bun Rieu", img: "./src/assets/bunrieu.png", color: "#FECACA" },  // đỏ hồng nhạt
-  { name: "Pho", img: "./src/assets/pho.png", color: "#BFDBFE" },           // xanh dương nhạt
-  { name: "Banh Canh", img: "./src/assets/banhcanh.png", color: "#FEF3C7" } // vàng nhạt
+  { name: "Hu Tieu", img: "src/assets/hutieu.png", color: "#A7F3D0" },    // xanh lá nhạt
+  { name: "Bun Rieu", img: "src/assets/bunrieu.png", color: "#FECACA" },  // đỏ hồng nhạt
+  { name: "Pho", img: "src/assets/pho.png", color: "#BFDBFE" },           // xanh dương nhạt
+  { name: "Banh Canh", img: "src/assets/banhcanh.png", color: "#FEF3C7" } // vàng nhạt
 ];
 
 
